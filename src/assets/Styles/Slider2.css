@@ -1,0 +1,94 @@
+ul,
+li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+li {
+  display: inline;
+}
+
+img {
+  margin-top: -16px;
+}
+
+/* Main container */
+
+.main-container {
+
+  height: 600px;
+  margin: 10px 50px;
+}
+
+/* Slider container */
+.slider-container {
+  position: relative;
+  height: 100%
+}
+
+/* Dots carrusel */
+.dots-container {
+    position: absolute;  
+    top: 450px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .dot-container-item {
+    margin: 5px 3px;
+    cursor: pointer;
+    font-size: 100px;
+    text-align: center;
+    color: rgba(190, 190, 190, 0.376); /* Establece el color blanco predeterminado */
+    transition: color 0.3s; /* Agrega una transición suave al cambio de color */
+  }
+  
+  .dot-container-item:hover {
+    color: gray; /* Cambia el color al pasar el cursor sobre el punto */
+  }
+  
+
+
+/* Arrows */
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.container-images {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+
+div.active {
+  height: 15px;
+}
+
+.container-images ul {
+    padding: 0;
+    margin: 0;
+}
