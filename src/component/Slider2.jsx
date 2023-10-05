@@ -6,6 +6,7 @@ export const Slider2 = () => {
   const listRef = useRef();
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  /* PRUEBA DE SEGUNDO COMMIT */
   useEffect(() => {
     const listNode = listRef.current;
 
