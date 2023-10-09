@@ -21,11 +21,11 @@ export const Slider2 = () => {
     const listNode = listRef.current;
     const imgNode = listNode.querySelectorAll('li > img')[currentIndex];
 
-    if (imgNode) {
+ /*    if (imgNode) {
       imgNode.scrollIntoView({
         behavior: 'smooth',
       });
-    }
+    } */
   }, [currentIndex]);
 
   const scrollToImage = (direction) => {
@@ -39,6 +39,7 @@ export const Slider2 = () => {
   };
 
   return (
+    <>
     <div className="main-container">
       <div className="slider-container">
         <div className="leftArrow" onClick={() => scrollToImage('prev')}>
@@ -69,5 +70,17 @@ export const Slider2 = () => {
         </div>
       </div>
     </div>
+
+    <div className="banner">
+      <div className="banner-container">
+        <p>Inscríbete y obtén uno de nuestros <strong>Cursos</strong>
+          <span> +100 Cursos</span>
+        </p>
+      <button>
+        Explorar
+      </button>
+      </div>
+    </div>
+    </>
   );
 };
