@@ -17,7 +17,7 @@ function App() {
     <Slider2/>
     <h3>Excelente experiencia <strong>en educacion online</strong></h3>
     <Card/>
-    <h4>Excelente experiencia <strong>en educacion online</strong></h4>
+    <h4 className='cursos'>Cursos</h4>
     </>
   )
 }
