@@ -18,7 +18,7 @@ export function Navbar() {
         <header className="nav">
             <div className='nav-container'>    
                 <div className="nav-content-img" >
-                    <img src="src/assets/img/logo.png" alt="Logo" 
+                    <img src="https://img.freepik.com/vector-premium/plantilla-diseno-logotipo-educacion-inteligente_145155-2117.jpg" alt="Logo" 
                     className="nav-img"/>
                 </div>
                     <div className={`nav-links ${getMenuOpen()}`}>
