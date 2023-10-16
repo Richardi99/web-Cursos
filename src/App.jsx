@@ -12,7 +12,7 @@ function App() {
   return ( 
     <>
     <Navbar />
-    <h1>Aprende con los mejores <span>cursos online</span></h1>
+    <h1>Aprendeeee con los mejores <span>cursos online</span></h1>
     {/* <Slider /> */}
     <Slider2/>
     <h3>Excelente experiencia <strong>en educacion online</strong></h3>
